@@ -1,33 +1,345 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FASHION</title>
+    <title>الواحة</title>
     <!-- main css file -->
     <link rel="stylesheet" href="css/style.css">
     <!-- import font awesome library to use icon -->
     <link rel="stylesheet" href="css/all.min.css">
+            <!-- Swiper CSS -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- import bootstrap toolkit -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- import google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- start header -->
     <header>
-        <nav>
-            <div class="logo">
-                <img src="" alt="">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div>
+                <img src="images/Logo.png" alt="logo" width="70">
+                <a class="navbar-brand ps-2 fw-bold" href="#">الواحة</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-end align-items-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-xl-5">
+                    <a class="nav-link active ps-lg-5 ps-md-0 active-link" href="#">الصفحة الرئيسية</a>
+                    <a class="nav-link  ps-xl-5 ps-lg-3 ps-md-0" href="#">الخدمات</a>
+                    <a class="nav-link  ps-xl-5 ps-lg-3 ps-md-0" href="#">اعمالنا</a>
+                    <a class="nav-link  ps-xl-5 ps-lg-3 ps-md-0">تواصل معنا</a>
+                </div>
+                </div>
+
             </div>
-            <ul>
-                <li>Home</li>
-                <li>Shop</li>
-                <li>Feature</li>
-                <li>Pricing</li>
-            </ul>
-            <div class="contact-us-btn">Contact Us</div>
-        </nav>
+            </nav>
+            <div class="landing">
+                <div class="landing-content">
+                    <h1>شركة الواحة للمظلات</h1>
+                    <p>شركة قطرية مختصة في تركيب المظلات والخيام وجميع انواع الحديد المشغول شركة مصنفة من وزارة المالية القطرية ونعمل في هذا المجال متذ العام ٢٠١٠ شعارنا السرعة في الانجاز والعمل المتقن</p>
+                    <a class="whatsapp-btn">
+                        <p>تواصل معنا</p>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+                <img src="images/Shades-removebg-preview.png" alt="Shades">
+            </div>
+        </div>
     </header>
     <!-- End header -->
+    <!-- Start features -->
+    <div class="container">
+            <div class="features">
+                <div>
+                    <i class="fa-solid fa-umbrella-beach"></i>
+                    <p>نقوم بعمل جميع انواع المظلات والحديد المشغول</p>
+                </div>
+                <div>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <p>الجودة في العمل</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gauge-high"></i>
+                    <p>السرعة في التنفيذ</p>
+                </div>
+            </div>
+    </div>
+        <!-- End features -->
+        <!--Start About us -->
+        <div class="container">
+            <section class="about-us">
+                <div class="about-us-content">
+                    <p>الواحة للمظلات - قطر</p>
+                    <p>لجميع انواع المظلات والسواتر والكويك سبان</p>
+                    <p>نسعد دوما بخدمتكم , اسعارنا منافسة</p>
+                    <p>شركتنا مصنفة من وزارة المالية القطرية</p>
+                </div>
+                <div class="about-us-img">
+                    <div class="shape1">
+                        <p>عنا</p>
+                        <p>About Us</p>
+                    </div>
+                    <div class="shape2"></div>
+                    <div class="shape3"></div>
+                </div>
+            </section>
+        </div>
+        <!--End About us -->
+        <!-- Start Our Service -->
+            <section class="Our-Service">
+            <div class="container">
+                <div class="Our-Service-content">
+                <h1>خدماتنا</h1>
+
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-1.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">براجولا  مقوسة للابواب والمنافذ</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-2.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">مظلات قماش عادي ووتربروف</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-3.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">براجولا حديد صبغ خشبي</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-4.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">برجولا مغطاه بالقماش</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-5.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">مظلات بولي كربونيت</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-6.jpg" alt="card-6" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">سواتر قماش</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-7.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">سواتر بلاستيك خشبي</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-8.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">مظلات ثابة لواجهات المحلات</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-9.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">قص ليزر PVC مظلات</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-10.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">مظلات كويك سبان</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-11.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">حديد مشغول</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-12.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">براجولات</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p> 
+                        </div>
+                    </div>
+                    
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-13.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">مظلات PVC</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-14.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">براجولات صبغ خشب</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-15.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">مظلات قماش بانواعه</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-16.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">سواتر بلاستيك خشبي</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="images/card-17.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">مظلات اشرعة</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+                </div>
+            </div>
+            </section>
+        <!-- End Our Service -->
+        <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
